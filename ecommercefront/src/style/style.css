@@ -1,0 +1,137 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  min-height: 100vh;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #007bff;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+.container {
+  width: 80%;
+  max-width: 800px;
+  margin: 100px auto 20px auto; /* Espacio superior para la navbar */
+  padding: 20px;
+  background: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  text-align: left; /* Ajuste de alineación a la izquierda */
+}
+
+h2 {
+  color: #444;
+  margin-bottom: 20px;
+  text-align: center; /* Centrando el título */
+  font-size: 24px; /* Tamaño de fuente mejorado */
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px 0;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  width: 100%; /* El botón toma todo el ancho disponible */
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  padding: 15px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 16px; /* Tamaño de fuente mejorado */
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 14px; /* Tamaño de fuente mejorado */
+}
+
+p {
+  margin: 5px 0;
+  line-height: 1.6; /* Mejor espacio entre líneas */
+  font-size: 16px; /* Tamaño de fuente mejorado */
+}
+
+h3 {
+  margin-bottom: 10px;
+  font-size: 20px; /* Tamaño de fuente mejorado */
+}
+
+.cart-item-details {
+  text-align: left;
+}
+
+.cart-item-details h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.cart-item-details p {
+  margin: 2px 0;
+}
+
+button.remove-item {
+  background-color: #ff4d4d;
+  margin-top: 10px;
+}
+
+button.remove-item:hover {
+  background-color: #cc0000;
+}
+
+/* Estilo para mejorar la presentación del perfil de usuario */
+.profile {
+  text-align: left;
+  margin-top: 20px;
+}
+
+.profile p {
+  font-size: 16px;
+  margin: 8px 0;
+}
+
+.profile h2 {
+  font-size: 22px;
+  text-align: left;
+}
